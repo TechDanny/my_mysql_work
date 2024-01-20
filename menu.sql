@@ -1,0 +1,7 @@
+CREATE TABLE menu (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    Week_day VARCHAR(30) NOT NULL,
+    morning VARCHAR(30) NOT NULL,
+    lunch VARCHAR(30) NOT NULL,
+    supper VARCHAR(30) NOT NULL
+);
