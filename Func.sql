@@ -1,6 +1,6 @@
 -- Use mysql functions
 
--- find the transactions that were takem
+-- find the transactions that were taken
 SELECT COUNT(amount) AS count
 FROM transactions;
 
@@ -22,4 +22,4 @@ FROM transactions;
 
 -- using concat function on mysql
 SELECT CONCAT(first_name, " ", last_name)
-FROM employees;
+FROM customers;
